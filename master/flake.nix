@@ -11,7 +11,6 @@
   inputs.src-ndbex-master.ref   = "refs/heads/master";
   inputs.src-ndbex-master.owner = "Senketsu";
   inputs.src-ndbex-master.repo  = "nim-db-ex";
-  inputs.src-ndbex-master.dir   = "";
   inputs.src-ndbex-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
